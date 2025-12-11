@@ -1,0 +1,13 @@
+# components/my-service/catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-service
+  description: Example microservice
+  annotations:
+    github.com/project-slug: de-muller/my-service
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
+  system: core-platform

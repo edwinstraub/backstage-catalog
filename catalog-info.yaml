@@ -1,0 +1,11 @@
+# catalog-info.yaml (at repository root)
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: de-muller-catalog
+  description: Muller software catalog
+spec:
+  type: url
+  targets:
+    - ./components/**/*.yaml
+    - ./templates/**/*.yaml
